@@ -32,3 +32,20 @@ for(let i = 0; i < scores.length; i++) {
 
 let average = total / scores.length;
 console.log('Average score:', average);
+
+
+//Task 3 Working with objects
+
+let employee = {
+    name: 'Jordon Venner',
+    age: 21,
+    department: 'Analytics',
+    isActive: true
+};
+console.log('Initial employee object:', employee);
+
+employee.department = 'Marketing';
+console.log('After updating department', employee);
+
+employee.position = 'Manager';
+console.log('After adding position', employee);
