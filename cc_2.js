@@ -5,10 +5,30 @@ console.log('cc_2.js is successfully linked to index.html!')
 
 
 let products = ['Oranges', 'Bananas', 'Rice', 'Cake', 'Cereal'];
-console.log('Initial product list:',products)
+console.log('Initial product list:',products);
 
 products.push('flour');
-console.log('After adding a new product:',products)
+console.log('After adding a new product:',products);
 
-products.pop()
-console.log('After removing the last product:', products)
+products.pop();
+console.log('After removing the last product:', products);
+
+
+
+//Task 2 Accessing and Modifying Arrays
+
+
+let scores = [85, 90, 78, 92, 88];
+console.log('Initial scores', scores);
+
+scores[1] = 95;
+console.log('Updating scores', scores);
+
+let total = 0;
+
+for(let i = 0; i < scores.length; i++) {
+    total += scores[i];
+}
+
+let average = total / scores.length;
+console.log('Average score:', average);
