@@ -49,3 +49,16 @@ console.log('After updating department', employee);
 
 employee.position = 'Manager';
 console.log('After adding position', employee);
+
+
+//Task 4 Array of Objects
+
+let customers = [
+    {name: 'Alice Feel', email: 'alicef@gmail.com', purchaseAmout: 333},
+    {name: 'Jordon Venner', email: 'jordonv@gmail.com', purchaseAmount: 450},
+    {name: 'Jammie Fox', email: 'jammief@gmail.com', purchaseAmount: 325}
+];
+console.log('Initial customer list:', customers);
+
+customers.push({name: 'Alice Green', email: 'aliceg@gmail.com', purchaseAmount: 234});
+console.log('After adding a new customer:', customers);
