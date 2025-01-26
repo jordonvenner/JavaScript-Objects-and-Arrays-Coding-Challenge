@@ -62,3 +62,20 @@ console.log('Initial customer list:', customers);
 
 customers.push({name: 'Alice Green', email: 'aliceg@gmail.com', purchaseAmount: 234});
 console.log('After adding a new customer:', customers);
+
+
+//Task 5 Object Methods
+
+let order = {
+    orderID: '14324',
+    customerName: 'Jordon Venner',
+    amount: 200
+};
+
+order.calculateTax = function() {
+    return this.amount * 0.1;
+};
+
+console.log('Order Details:', order);
+
+console.log('Tax Amount:', order.calculateTax());
